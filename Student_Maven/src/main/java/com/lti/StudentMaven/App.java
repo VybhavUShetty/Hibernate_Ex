@@ -15,16 +15,7 @@ public class App
        Session session=fac.openSession();
        Student student=new Student();
      
-       student.setName("Vybhav");
-       student.setDept("Mech");
-       student.setName("Tiru");
-       student.setDept("Electrical");
-      
-       student.setName("Harshitha");
-       student.setDept("CS");
-       student.setName("Ashika");
-       student.setDept("CS");
-       session.beginTransaction();
+  
        session.save(student);
        
        session.getTransaction().commit();
