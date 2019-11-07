@@ -22,6 +22,8 @@ public class App
        student.setDept("CS");
        student.setName("Harshitha");
        student.setDept("Cs");
+       student.setName("Hars");
+       student.setDept("Cs");
        session.beginTransaction();
      
   
