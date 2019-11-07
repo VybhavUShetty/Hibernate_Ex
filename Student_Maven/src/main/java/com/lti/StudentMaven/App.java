@@ -17,7 +17,8 @@ public class App
      
        student.setName("Vybhav");
        student.setDept("Mech");
-       
+       student.setName("Tiru");
+       student.setDept("Electrical");
        session.beginTransaction();
        session.save(student);
        
