@@ -8,7 +8,7 @@
         <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
         <property name="hibernate.connection.username">system</property>
         <property name="hibernate.connection.password">ilovejava</property>
-         <property name="hbm2ddl.auto">CREATE</property>
+         <property name="hbm2ddl.auto">create</property>
         <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
         
         <property name="connection.pool-size">1</property>
