@@ -19,9 +19,10 @@ public class App
        student.setDept("Mech");
        student.setName("Tiru");
        student.setDept("Electrical");
-       student.setName("Ashika");
-       student.setDept("CS");
+      
        student.setName("Harshitha");
+       student.setDept("CS");
+       student.setName("Ashika");
        student.setDept("CS");
        session.beginTransaction();
        session.save(student);
