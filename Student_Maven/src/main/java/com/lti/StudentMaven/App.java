@@ -20,5 +20,7 @@ public class App
        
        session.beginTransaction();
        session.save(student);
+       
+       session.getTransaction().commit();
     }
 }
