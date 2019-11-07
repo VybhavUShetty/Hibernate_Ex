@@ -4,7 +4,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping package="com.lti.StudentMaven">
-<class name="Student" table="student12">
+<class name="Student" table="student67">
 <id name="id" column="id">
 <generator class="sequence">
 <param name="sequence">st_id1</param>
