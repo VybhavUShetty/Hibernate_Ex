@@ -14,6 +14,15 @@ public class App
        SessionFactory fac=configuration.buildSessionFactory(builder.build());
        Session session=fac.openSession();
        Student student=new Student();
+       student.setName("Vybhav");
+       student.setDept("Mech");
+       student.setName("Tiru");
+       student.setDept("Electrical");
+       student.setName("Ashika");
+       student.setDept("CS");
+       student.setName("Harshitha");
+       student.setDept("Cs");
+       session.beginTransaction();
      
   
        session.save(student);
